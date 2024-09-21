@@ -37,7 +37,7 @@ fun LoginForm() {
         Text(
             text = "Login",
             fontSize = 30.sp,
-            color = Color(0xFF6200EE),  // Purple color
+            color = Color(0xFF6200EE),
             modifier = Modifier.padding(bottom = 16.dp)
         )
 
@@ -73,7 +73,7 @@ fun LoginForm() {
         )
 
         Button(
-            onClick = { /* Handle submit action here */ },
+            onClick = {  },
             colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF6200EE)),
             modifier = Modifier.fillMaxWidth()
         ) {
